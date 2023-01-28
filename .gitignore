@@ -4,4 +4,7 @@ node_modules
 
 #vscode
 
-.vscode/
+.vscode
+
+#aa
+assets/*
