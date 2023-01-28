@@ -1,0 +1,84 @@
+
+@import 'variables';
+
+.footer{
+
+    padding-top: 1rem;
+    background-color: $background-secundary;
+    color: $color-primary;
+    
+
+    overflow: hidden;
+
+
+}
+
+.section-footer{
+    
+    &__logo{
+
+
+        &__img{
+            max-width: 300px;
+        }
+    }
+
+    &__menu{
+        color: $color-secundary;
+
+        li{
+            list-style: none;
+
+            a{
+                color: $color-secundary;
+                margin: 0;
+                padding: 0;
+                text-decoration: none;
+                text-transform: capitalize;
+            }
+        }
+
+
+
+    }
+
+    &__contact{
+
+        color: $color-secundary;
+
+        i{
+            padding-right: 8px;
+        }
+        &__email{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
+    &__copyright{
+
+        color: $color-secundary;
+        
+        & span{
+            font-weight: bold;
+        }
+    }
+}
+
+
+
+.correo{
+
+    column-gap: 0;
+    p{
+        display: flex;
+        flex-wrap: wrap;
+        
+        margin: 0;
+        padding: 0;
+    }
+    span{
+        margin: 0;
+        padding: 0;
+    }
+}
