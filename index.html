@@ -18,14 +18,29 @@
         <div class="container">
 
             <div class="nav__section row">
-                <i id="icon-menu-mobile" class="fa-solid fa-bars icon col order-0 nav__icon-menu"></i>
+                <i id="icon-menu-mobile" class="fa-solid fa-bars icon col order-0 nav__icon-menu d-lg-none"></i>
 
-                <img class="nav__logo" src="./assets/images/img_logo_greenpacking.png" alt="">
+                <div class="nav__logo col col-lg-6 px-0"">
+                    
+                    <img class="nav__logo__img" src="./assets/images/img_logo_greenpacking.png" alt="">
 
-                <p class="col order-3"></p>
+                </div>
 
-                <div id="menu-mobile" class="menu menu--active">
-                    <div class="container">
+                <span class="col d-lg-none" ></span>
+
+                <ul class="menu__body col-lg-6 d-none d-lg-flex ">
+
+                    <li class="menu__body__li"> <a class="menu__body__li__a menu__body__li__a--active"
+                            href="#inicio">Inicio</a> </li>
+                    <li class="menu__body__li"> <a class="menu__body__li__a" href="#productos">Producto</a>
+                    </li>
+                    <li class="menu__body__li"> <a class="menu__body__li__a" href="#nosotros">Nosotros</a> </li>
+                    <li class="menu__body__li"> <a class="menu__body__li__a" href="#contacto">Contactanos</a>
+                    </li>
+
+                </ul>
+
+                <div id="menu-mobile" class="menu  d-lg-none">
 
                         <div class="menu__header d-flex justify-content-between align-items-center">
 
@@ -59,13 +74,28 @@
         <div class="container">
 
 
+            <div class="header__section row">
 
-            <img class="header__image" src="./assets/images/img_portada.png" alt="">
+                <div class="header__image col-12 col-md-8 order-md-2">
 
-            <p class="header__title">ENVASES BIODEGRADABLES</p>
-            <p class="p">Fabricados a base de caña de azucar</p>
+                    <img class="header__image__img" src="./assets/images/img_portada.png" alt="">
 
-            <button class="btn btn-color-primary">CONTACTAR</button>
+                </div>
+
+                <div
+                    class="header__information col-12 col-md-4 order-md-1 d-flex flex-column justify-content-md-center">
+
+                    <p class="header__title">ENVASES BIODEGRADABLES</p>
+                    <p class="p">Fabricados a base de caña de azucar</p>
+                    <button class="btn btn-color-primary mx-md-0 align-self-md-start ">CONTACTAR</button>
+
+                </div>
+
+
+            </div>
+
+
+
 
         </div>
 
@@ -87,21 +117,6 @@
 
                     </div>
 
-                    <div class="categories__item categories__item--active">
-
-                        <p class="categories__item__name">Fibra de caña de azucar</p>
-
-                    </div>
-                    <div class="categories__item categories__item--active">
-
-                        <p class="categories__item__name">Fibra de caña de azucar</p>
-
-                    </div>
-                    <div class="categories__item">
-
-                        <p class="categories__item__name">Bambu</p>
-
-                    </div>
 
                 </div>
             </div>
@@ -112,8 +127,10 @@
 
             <div class="container">
 
+
                 <div class="products">
 
+                    <!-- // -->
                     <div class="products__item">
 
                         <img class="products__item__img" src="assets/images/img_producto_1.png" alt="">
@@ -163,10 +180,232 @@
                             </div>
                         </div>
 
-                        <button class="btn btn-color-secundary"><i
-                                class="fa-solid fa-cart-shopping"></i>Cotizar</button>
+                        <button class="btn btn-color-secundary products__item__btn"><i
+                                class="fa-solid fa-cart-shopping products__item__btn__icon"></i>Cotizar</button>
 
                     </div>
+
+                     <!-- // -->
+                     <div class="products__item">
+
+                        <img class="products__item__img" src="assets/images/img_producto_1.png" alt="">
+
+                        <h3 class="products__item__title">Envase Biodegradable ct5</h3>
+
+                        <div class="products__item__characteristics">
+
+                            <div class="characteristics">
+
+                                <i class="fa-solid fa-check characteristics__icon"></i>
+
+                                <p class="characteristics__name">Dimension:</p>
+
+                                <p class="characteristics__value">23x15x8cm</p>
+
+                            </div>
+
+                            <div class="characteristics">
+
+                                <i class="fa-solid fa-check characteristics__icon"></i>
+
+                                <p class="characteristics__name">Capacidad:</p>
+
+                                <p class="characteristics__value">900ml</p>
+
+                            </div>
+
+                            <div class="characteristics">
+
+                                <i class="fa-solid fa-check characteristics__icon"></i>
+
+                                <p class="characteristics__name">Aplicacion:</p>
+
+                                <p class="characteristics__value">1/4 de pollo, menus, platos a la carta y otros</p>
+
+                            </div>
+
+                            <div class="characteristics">
+
+                                <i class="fa-solid fa-check characteristics__icon"></i>
+
+                                <p class="characteristics__name">Dimension:</p>
+
+                                <p class="characteristics__value">23x15x8cm</p>
+
+                            </div>
+                        </div>
+
+                        <button class="btn btn-color-secundary products__item__btn"><i
+                                class="fa-solid fa-cart-shopping products__item__btn__icon"></i>Cotizar</button>
+
+                    </div>
+
+                     <!-- // -->
+                     <div class="products__item">
+
+                        <img class="products__item__img" src="assets/images/img_producto_1.png" alt="">
+
+                        <h3 class="products__item__title">Envase Biodegradable ct5</h3>
+
+                        <div class="products__item__characteristics">
+
+                            <div class="characteristics">
+
+                                <i class="fa-solid fa-check characteristics__icon"></i>
+
+                                <p class="characteristics__name">Dimension:</p>
+
+                                <p class="characteristics__value">23x15x8cm</p>
+
+                            </div>
+
+                            <div class="characteristics">
+
+                                <i class="fa-solid fa-check characteristics__icon"></i>
+
+                                <p class="characteristics__name">Capacidad:</p>
+
+                                <p class="characteristics__value">900ml</p>
+
+                            </div>
+
+                            <div class="characteristics">
+
+                                <i class="fa-solid fa-check characteristics__icon"></i>
+
+                                <p class="characteristics__name">Aplicacion:</p>
+
+                                <p class="characteristics__value">1/4 de pollo, menus, platos a la carta y otros</p>
+
+                            </div>
+
+                            <div class="characteristics">
+
+                                <i class="fa-solid fa-check characteristics__icon"></i>
+
+                                <p class="characteristics__name">Dimension:</p>
+
+                                <p class="characteristics__value">23x15x8cm</p>
+
+                            </div>
+                        </div>
+
+                        <button class="btn btn-color-secundary products__item__btn"><i
+                                class="fa-solid fa-cart-shopping products__item__btn__icon"></i>Cotizar</button>
+
+                    </div>
+
+                     <!-- // -->
+                     <div class="products__item">
+
+                        <img class="products__item__img" src="assets/images/img_producto_1.png" alt="">
+
+                        <h3 class="products__item__title">Envase Biodegradable ct5</h3>
+
+                        <div class="products__item__characteristics">
+
+                            <div class="characteristics">
+
+                                <i class="fa-solid fa-check characteristics__icon"></i>
+
+                                <p class="characteristics__name">Dimension:</p>
+
+                                <p class="characteristics__value">23x15x8cm</p>
+
+                            </div>
+
+                            <div class="characteristics">
+
+                                <i class="fa-solid fa-check characteristics__icon"></i>
+
+                                <p class="characteristics__name">Capacidad:</p>
+
+                                <p class="characteristics__value">900ml</p>
+
+                            </div>
+
+                            <div class="characteristics">
+
+                                <i class="fa-solid fa-check characteristics__icon"></i>
+
+                                <p class="characteristics__name">Aplicacion:</p>
+
+                                <p class="characteristics__value">1/4 de pollo, menus, platos a la carta y otros</p>
+
+                            </div>
+
+                            <div class="characteristics">
+
+                                <i class="fa-solid fa-check characteristics__icon"></i>
+
+                                <p class="characteristics__name">Dimension:</p>
+
+                                <p class="characteristics__value">23x15x8cm</p>
+
+                            </div>
+                        </div>
+
+                        <button class="btn btn-color-secundary products__item__btn"><i
+                                class="fa-solid fa-cart-shopping products__item__btn__icon"></i>Cotizar</button>
+
+                    </div>
+
+                     <!-- // -->
+                     <div class="products__item">
+
+                        <img class="products__item__img" src="assets/images/img_producto_1.png" alt="">
+
+                        <h3 class="products__item__title">Envase Biodegradable ct5</h3>
+
+                        <div class="products__item__characteristics">
+
+                            <div class="characteristics">
+
+                                <i class="fa-solid fa-check characteristics__icon"></i>
+
+                                <p class="characteristics__name">Dimension:</p>
+
+                                <p class="characteristics__value">23x15x8cm</p>
+
+                            </div>
+
+                            <div class="characteristics">
+
+                                <i class="fa-solid fa-check characteristics__icon"></i>
+
+                                <p class="characteristics__name">Capacidad:</p>
+
+                                <p class="characteristics__value">900ml</p>
+
+                            </div>
+
+                            <div class="characteristics">
+
+                                <i class="fa-solid fa-check characteristics__icon"></i>
+
+                                <p class="characteristics__name">Aplicacion:</p>
+
+                                <p class="characteristics__value">1/4 de pollo, menus, platos a la carta y otros</p>
+
+                            </div>
+
+                            <div class="characteristics">
+
+                                <i class="fa-solid fa-check characteristics__icon"></i>
+
+                                <p class="characteristics__name">Dimension:</p>
+
+                                <p class="characteristics__value">23x15x8cm</p>
+
+                            </div>
+                        </div>
+
+                        <button class="btn btn-color-secundary products__item__btn"><i
+                                class="fa-solid fa-cart-shopping products__item__btn__icon"></i>Cotizar</button>
+
+                    </div>
+
+
                 </div>
 
             </div>
@@ -177,36 +416,45 @@
 
             <div class="container">
 
-                <h2 class="title title--secundary ">Nosotros</h2>
+                <div class="container-nosotros row align-items-md-center">
 
-                <img class="section-nosotros__img" src="./assets/images/funciones-de-la-empresa-de-logistica.jpg"
-                    alt="">
+                    <h2 class="title title--secundary col-md-12 ">Nosotros</h2>
 
-                <div class="nosotros">
+                    <div class="section-nosotros__image col-12 col-md-6">
 
-                    <details class="nosotros__item">
-                        <summary class="nosotros__item__title">¿quienes somos?</summary>
-                        <p class="nosotros__item__description">Epcot is a theme park at Walt Disney World Resort
-                            featuring exciting attractions, international pavilions, award-winning fireworks and
-                            seasonal special events.</p>
-                    </details>
+                        <img class="section-nosotros__image__img" src="./assets/images/funciones-de-la-empresa-de-logistica.jpg"
+                        alt="">
+                    </div>
+                
 
-                    <details class="nosotros__item">
-                        <summary class="nosotros__item__title">Que hacemos?</summary>
-                        <p class="nosotros__item__description">Epcot is a theme park at Walt Disney World Resort
-                            featuring exciting attractions, international pavilions, award-winning fireworks and
-                            seasonal special events.</p>
-                    </details>
+                    <div class="nosotros col-md-6">
 
-                    <details class="nosotros__item">
-                        <summary class="nosotros__item__title">Nuestro objetivo</summary>
-                        <p class="nosotros__item__description">Epcot is a theme park at Walt Disney World Resort
-                            featuring exciting attractions, international pavilions, award-winning fireworks and
-                            seasonal special events.</p>
-                    </details>
+                        <details class="nosotros__item">
+                            <summary class="nosotros__item__title">¿quienes somos?</summary>
+                            <p class="nosotros__item__description">Epcot is a theme park at Walt Disney World Resort
+                                featuring exciting attractions, international pavilions, award-winning fireworks and
+                                seasonal special events.</p>
+                        </details>
+
+                        <details class="nosotros__item">
+                            <summary class="nosotros__item__title">Que hacemos?</summary>
+                            <p class="nosotros__item__description">Epcot is a theme park at Walt Disney World Resort
+                                featuring exciting attractions, international pavilions, award-winning fireworks and
+                                seasonal special events.</p>
+                        </details>
+
+                        <details class="nosotros__item">
+                            <summary class="nosotros__item__title">Nuestro objetivo</summary>
+                            <p class="nosotros__item__description">Epcot is a theme park at Walt Disney World Resort
+                                featuring exciting attractions, international pavilions, award-winning fireworks and
+                                seasonal special events.</p>
+                        </details>
+
+                        <button class="btn btn-color-primary section-nosotros__button ">Contactar</button>
+
+                    </div>
+
                 </div>
-
-                <button class="btn btn-color-primary section-nosotros__button">Contactar</button>
             </div>
 
         </section>
@@ -286,13 +534,13 @@
             <div class="section-footer row">
 
 
-                <div class="section-footer__logo col-12">
+                <div class="section-footer__logo col-12 col-sm-12 col-lg-4">
 
-                    <img src="assets/images/img__logo__footer.png" alt="">
+                    <img src="assets/images/img_logo_footer.png" alt="">
 
                 </div>
 
-                <ul class="section-footer__menu col-12">
+                <ul class="section-footer__menu col-12 col-sm-6 col-lg-4">
                     <h3 class="fw-bold h3">Menu</h3>
                     <li><a href="">Inicio</a></li>
                     <li><a href="">Productos</a></li>
@@ -301,7 +549,7 @@
 
                 </ul>
 
-                <section class="section-footer__contact col-12">
+                <section class="section-footer__contact col-6 col-lg-4">
 
                     <h3 class="fw-bold h3 ">Contactanos</h3>
 
@@ -309,7 +557,7 @@
 
 
                     <p class="section-footer__contact__email"><i
-                            class="fa-solid fa-envelope"></i><span>ventas</span><span>@greenpacking</span><span>.com</span>
+                            class="fa-solid fa-envelope"></i>ventas@greenpacking.com
                     </p>
 
 
@@ -319,7 +567,7 @@
 
                 <hr class="hr">
 
-                <p class="section-footer__copyright"><span>Green</span>packing todos los derechos reservados©2023</p>
+                <p class="section-footer__copyright text-center"><span>Green</span>packing todos los derechos reservados©2023</p>
 
             </div>
 
