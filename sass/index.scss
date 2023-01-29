@@ -4,6 +4,10 @@ body{
     background-color: #EEEEEE;
 }
 
+html{
+    scroll-padding-top: 59px;
+}
+
 @import './items';
 
 @import './header';
