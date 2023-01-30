@@ -1,0 +1,136 @@
+{
+    "productos": [
+        {
+            "nombre": "Envase Biodegradable ct5",
+            "imagen": "assets/images/img_producto_ct5.png",
+            "caracteristicas": [
+                {
+                    "nombre": "dimension",
+                    "descripcion": "23 x 15 x 8cm"
+                },
+                {
+                    "nombre": "gramaje",
+                    "descripcion": "34gr"
+                },
+                {
+                    "nombre": "capacidad",
+                    "descripcion": "920 ml"
+                },
+                {
+                    "nombre": "aplicacion",
+                    "descripcion": "1/4 de pollo, menus, platos a la carta y otros"
+                }
+            ]
+        },
+        {
+            "nombre": "Envase Biodegradable ct4",
+            "imagen": "assets/images/img_producto_ct4.png",
+            "caracteristicas": [
+                {
+                    "nombre": "dimension",
+                    "descripcion": "14.8 x 14.8 x 8.5 cm."
+                },
+                {
+                    "nombre": "gramaje",
+                    "descripcion": "33gr"
+                },
+                {
+                    "nombre": "capacidad",
+                    "descripcion": "500 ml"
+                },
+                {
+                    "nombre": "aplicacion",
+                    "descripcion": "Ensaladas, entradas, sánguches, postres y otros."
+                }
+            ]
+        },
+        {
+            "nombre": "Envase Biodegradable ct3",
+            "imagen": "assets/images/img_producto_ct3.png",
+            "caracteristicas": [
+                {
+                    "nombre": "dimension",
+                    "descripcion": "20.3 x 20.3 x 7.6 cm."
+                },
+                {
+                    "nombre": "gramaje",
+                    "descripcion": "34gr"
+                },
+                {
+                    "nombre": "capacidad",
+                    "descripcion": "1200 ml"
+                },
+                {
+                    "nombre": "aplicacion",
+                    "descripcion": "1/2 pollo, platos a la carta, porción de papas, porción marina y otros. "
+                }
+            ]
+        },
+        {
+            "nombre": "Envase Biodegradable ct5 con division",
+            "imagen": "assets/images/img_producto_ct5_division.png",
+            "caracteristicas": [
+                {
+                    "nombre": "dimension",
+                    "descripcion": "22.8 x 23.5 x 7.5 cm."
+                },
+                {
+                    "nombre": "gramaje",
+                    "descripcion": "34gr"
+                },
+                {
+                    "nombre": "capacidad",
+                    "descripcion": "1200 ml"
+                },
+                {
+                    "nombre": "aplicacion",
+                    "descripcion": "1/4 de pollo, menús, platos a la carta y otros."
+                }
+            ]
+        },
+        {
+            "nombre": "Envase Biodegradable ct1",
+            "imagen": "assets/images/img_producto_ct1.png",
+            "caracteristicas": [
+                {
+                    "nombre": "dimension",
+                    "descripcion": "22.8 x 23.5 x 7.5 cm."
+                },
+                {
+                    "nombre": "gramaje",
+                    "descripcion": "45 gr"
+                },
+                {
+                    "nombre": "capacidad",
+                    "descripcion": "1500 ml"
+                },
+                {
+                    "nombre": "aplicacion",
+                    "descripcion": "1 pollo, porción de papas, platos a la carta y otros."
+                }
+            ]
+        },
+        {
+            "nombre": "Bandeja Biodegradable PB2",
+            "imagen": "assets/images/img_producto_1.png",
+            "caracteristicas": [
+                {
+                    "nombre": "dimension",
+                    "descripcion": "18.5 x 2.5 x 13.5 cm."
+                },
+                {
+                    "nombre": "gramaje",
+                    "descripcion": "14 gr."
+                },
+                {
+                    "nombre": "capacidad",
+                    "descripcion": "1500 ml"
+                },
+                {
+                    "nombre": "aplicacion",
+                    "descripcion": "1/4 de pollo, menús, platos a la carta y otros."
+                }
+            ]
+        }
+    ]
+}
