@@ -46,7 +46,7 @@
 
     @media(min-width: 576px) {
         
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr ;
 
     }
 
@@ -64,22 +64,40 @@
     }
     &__item {
 
-
+        display: flex;
+        flex-direction: column;
         padding: 1rem;
 
         background-color: #fff;
         border-radius: 1rem;
 
-        &__img {
-            display: block;
-            width: 200px;
+        &__image {
+            max-width: 200px;
+            min-height: 150px;
 
-            margin: auto;
+            margin-left: 0;
+            margin-right: 0;
+
+            align-self: center;
+
+            &__img{
+
+                width: 100%;
+                height: 100%;
+
+            }
+            
         }
 
+        &__information{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
         &__title {
             text-transform: uppercase;
-
             font-size: 1.2rem;
             font-weight: bold;
             margin-top: 1rem;
@@ -87,7 +105,8 @@
 
         &__btn {
             width: 100%;
-
+            margin: 0;
+            align-self: flex-end;
             &__icon {
                 padding-right: .5rem;
             }
