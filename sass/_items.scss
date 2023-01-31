@@ -77,24 +77,24 @@ hr{
 
 
 
-// .animation{
-//     opacity: 1;
-//     animation: animationOpacity .8s forwards;
+.animation{
+    opacity: 1;
+    animation: animationOpacity .8s forwards;
 
-// }
+}
 
-// .animation--1{
-//     animation-delay: 0s;
-// }
+.animation--1{
+    animation-delay: 0s;
+}
 
-// .animation--2{
-//     animation-delay: .4s;
+.animation--2{
+    animation-delay: .4s;
 
-// }
-// .animation--3{
-//     animation-delay: .8s;
+}
+.animation--3{
+    animation-delay: .8s;
 
-// }
+}
 
 @keyframes animationOpacity {
 
