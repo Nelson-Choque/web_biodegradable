@@ -11,6 +11,7 @@ const $templateProducto = document.getElementById("fragment-producto").content;
 const $fragmento = document.createDocumentFragment();
 
 
+const $redirection = document.getElementById("redireccion")
 
 
 $buttonClose.addEventListener("click", ()=>{
@@ -65,6 +66,10 @@ const main = ()=>{
 
 
     $products.appendChild($fragmento)
+
+    console.log( location.origin )
+
+    $redirection.setAttribute("value",location.origin)
 
 }
 
