@@ -61,6 +61,14 @@ hr {
   opacity: 0.5;
 }
 
+@keyframes animationOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .header {
   background-color: #6BE058;
   padding-bottom: 2rem;

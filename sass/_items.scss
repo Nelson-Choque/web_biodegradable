@@ -74,3 +74,36 @@ hr{
     color: #6BE058;
     opacity: .5;
 }
+
+
+
+// .animation{
+//     opacity: 1;
+//     animation: animationOpacity .8s forwards;
+
+// }
+
+// .animation--1{
+//     animation-delay: 0s;
+// }
+
+// .animation--2{
+//     animation-delay: .4s;
+
+// }
+// .animation--3{
+//     animation-delay: .8s;
+
+// }
+
+@keyframes animationOpacity {
+
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+    
+}
