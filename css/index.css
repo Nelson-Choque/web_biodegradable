@@ -222,15 +222,15 @@ hr {
     color: #303030;
     font-size: 1rem;
   }
-  .menu__body__li__a--active {
+  .menu__body__li__a:hover {
     border-bottom: 2px solid #fff;
   }
 }
-.menu__body__li__a--active {
+.menu__body__li__a:hover {
   border-bottom: 2px solid #6BE058;
 }
 @media (min-width: 992px) {
-  .menu__body__li__a--active {
+  .menu__body__li__a:hover {
     border-bottom: 2px solid #303030;
   }
 }

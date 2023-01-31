@@ -202,19 +202,21 @@
                 text-transform: capitalize;
 
 
+
                 @media(min-width:992px) {
 
                     color: $background-secundary;
+
                     font-size: 1rem;
 
-                    &--active {
+                    &:hover{
                         border-bottom: 2px solid #fff;
 
                     }
 
                 }
 
-                &--active {
+                &:hover{
                     border-bottom: 2px solid #6BE058;
 
                     @media(min-width:992px) {
