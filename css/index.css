@@ -6,6 +6,10 @@ html {
   scroll-padding-top: 52px;
 }
 
+.btn:hover {
+  border: 1px solid #303030;
+}
+
 .btn-color-primary {
   display: block;
   margin-left: auto;
@@ -81,6 +85,19 @@ hr {
 @media (min-width: 1200px) {
   .header__title {
     font-size: 3rem;
+  }
+}
+.header__subtitle {
+  font-size: 1.5rem;
+}
+@media (min-width: 992px) {
+  .header__subtitle {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .header__subtitle {
+    font-size: 2.5rem;
   }
 }
 
@@ -226,6 +243,7 @@ hr {
   padding: 0.5rem 1rem;
   background-color: #fff;
   border-radius: 1rem;
+  cursor: pointer;
 }
 .categories .categories__item--active {
   background-color: #303030;

@@ -45,6 +45,8 @@ const main = ()=>{
 
         let $imagen = $templateProducto.querySelector(".products__item__image__img")
 
+        $imagen.setAttribute("alt",producto.nombre)
+
         $imagen.setAttribute("src",producto.imagen)
 
         let $caracteristicas = $templateProducto.querySelectorAll(".characteristics__value")

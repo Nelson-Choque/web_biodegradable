@@ -41,6 +41,25 @@
 
     }
 
+    &__subtitle{
+
+        font-size: 1.5rem;
+        
+        @media(min-width:992px) {
+
+            font-size: 2rem;
+
+        }
+
+        @media(min-width:1200px) {
+            font-size: 2.5rem;
+
+
+        }
+
+    }
+
+
 }
 
 

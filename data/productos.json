@@ -6,11 +6,11 @@
             "caracteristicas": [
                 {
                     "nombre": "dimension",
-                    "descripcion": "23 x 15 x 8cm"
+                    "descripcion": "23 x 15 x 8 cm"
                 },
                 {
                     "nombre": "gramaje",
-                    "descripcion": "34gr"
+                    "descripcion": "34 gr"
                 },
                 {
                     "nombre": "capacidad",
@@ -28,11 +28,11 @@
             "caracteristicas": [
                 {
                     "nombre": "dimension",
-                    "descripcion": "14.8 x 14.8 x 8.5 cm."
+                    "descripcion": "14.8 x 14.8 x 8.5 cm"
                 },
                 {
                     "nombre": "gramaje",
-                    "descripcion": "33gr"
+                    "descripcion": "33 gr"
                 },
                 {
                     "nombre": "capacidad",
@@ -50,11 +50,11 @@
             "caracteristicas": [
                 {
                     "nombre": "dimension",
-                    "descripcion": "20.3 x 20.3 x 7.6 cm."
+                    "descripcion": "20.3 x 20.3 x 7.6 cm"
                 },
                 {
                     "nombre": "gramaje",
-                    "descripcion": "34gr"
+                    "descripcion": "34 gr"
                 },
                 {
                     "nombre": "capacidad",
@@ -72,11 +72,11 @@
             "caracteristicas": [
                 {
                     "nombre": "dimension",
-                    "descripcion": "22.8 x 23.5 x 7.5 cm."
+                    "descripcion": "22.8 x 23.5 x 7.5 cm"
                 },
                 {
                     "nombre": "gramaje",
-                    "descripcion": "34gr"
+                    "descripcion": "34 gr"
                 },
                 {
                     "nombre": "capacidad",
@@ -94,7 +94,7 @@
             "caracteristicas": [
                 {
                     "nombre": "dimension",
-                    "descripcion": "22.8 x 23.5 x 7.5 cm."
+                    "descripcion": "22.8 x 23.5 x 7.5 cm"
                 },
                 {
                     "nombre": "gramaje",
@@ -116,11 +116,11 @@
             "caracteristicas": [
                 {
                     "nombre": "dimension",
-                    "descripcion": "18.5 x 2.5 x 13.5 cm."
+                    "descripcion": "18.5 x 2.5 x 13.5 cm"
                 },
                 {
                     "nombre": "gramaje",
-                    "descripcion": "14 gr."
+                    "descripcion": "14 gr"
                 },
                 {
                     "nombre": "capacidad",
